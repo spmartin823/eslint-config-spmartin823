@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-spmartin823",
+  "version": "0.1.0",
+  "description": "Shared ESLint flat config and required plugins for spmartin823's frontend projects.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "base.js",
+    "react.js",
+    "browser.js",
+    "node.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "flat-config"
+  ],
+  "author": "Seamus Martin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spmartin823/eslint-config-spmartin823.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spmartin823/eslint-config-spmartin823/issues"
+  },
+  "homepage": "https://github.com/spmartin823/eslint-config-spmartin823#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.59.3",
+    "@typescript-eslint/parser": "^8.59.3",
+    "eslint-plugin-autofix": "2.2.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-simple-import-sort": "^13.0.0",
+    "globals": "^15.14.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  }
+}
