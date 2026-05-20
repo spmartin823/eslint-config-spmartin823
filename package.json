@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spmartin823",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Shared ESLint flat config and required plugins for spmartin823's frontend projects.",
   "main": "index.js",
   "files": [
@@ -33,6 +33,7 @@
     "@typescript-eslint/parser": "^8.59.3",
     "eslint-plugin-autofix": "2.2.0",
     "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-promise": "^7.3.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-simple-import-sort": "^13.0.0",
     "globals": "^15.14.0"

@@ -2,6 +2,7 @@ const tsPlugin = require('@typescript-eslint/eslint-plugin');
 const tsParser = require('@typescript-eslint/parser');
 const autofix = require('eslint-plugin-autofix');
 const importPlugin = require('eslint-plugin-import');
+const promise = require('eslint-plugin-promise');
 const simpleImportSort = require('eslint-plugin-simple-import-sort');
 
 module.exports = [
@@ -15,6 +16,7 @@ module.exports = [
       '@typescript-eslint': tsPlugin,
       autofix,
       import: importPlugin,
+      promise,
       'simple-import-sort': simpleImportSort,
     },
     rules: {
@@ -42,6 +44,7 @@ module.exports = [
       'object-shorthand': ['error', 'always'],
       'prefer-const': ['error'],
       'prefer-rest-params': ['error'],
+      'promise/prefer-await-to-then': 'error',
       quotes: ['error', 'single', { avoidEscape: true }],
       'simple-import-sort/imports': 'error',
       'sort-keys': 'error',
