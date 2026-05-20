@@ -7,6 +7,7 @@ const simpleImportSort = require('eslint-plugin-simple-import-sort');
 
 module.exports = [
   {
+    files: ['**/*.{js,jsx,ts,tsx,cjs,mjs}'],
     languageOptions: {
       ecmaVersion: 2020,
       parser: tsParser,
@@ -51,7 +52,7 @@ module.exports = [
     },
   },
   {
-    files: ['*.ts', '*.tsx'],
+    files: ['**/*.{ts,tsx}'],
     rules: {
       'no-undef': 'off',
       'no-unused-vars': 'off',
