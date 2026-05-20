@@ -13,7 +13,6 @@ module.exports = [
       'react/no-access-state-in-setstate': 'error',
       'react/no-typos': 'error',
       'react/prefer-stateless-function': 'error',
-      'react/prop-types': 'error',
       'react/self-closing-comp': 'error',
       'react/sort-comp': 'error',
       'react/sort-prop-types': 'error',
